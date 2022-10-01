@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1.7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px= 62.5%
+}
+
+.body {
+  //width: 1440px;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: calc(1400px + 40px);
+  width: 100%;
+  margin: 0 auto;
+}
